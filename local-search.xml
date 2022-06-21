@@ -42,5 +42,18 @@
   
   
   
+  <entry>
+    <title>#0 Hello World</title>
+    <link href="/posts/0/"/>
+    <url>/posts/0/</url>
+    
+    <content type="html"><![CDATA[<p>它原先是由Hexo自动生成的md文件，自称是我的 <strong>「very first post」</strong>..</p><p>于是我决定留下它。</p><p>以上。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
   
 </search>
