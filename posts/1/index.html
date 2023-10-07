@@ -27,7 +27,7 @@
 <meta property="og:image" content="http://heyirisy.com/img/1/icon-1.jpg">
 <meta property="og:image" content="http://heyirisy.com/img/1/icon-2.jpg">
 <meta property="article:published_time" content="1999-12-31T16:00:01.000Z">
-<meta property="article:modified_time" content="2023-10-07T09:28:09.214Z">
+<meta property="article:modified_time" content="2023-10-07T12:03:26.054Z">
 <meta property="article:author" content="Irisy">
 <meta property="article:tag" content="站务">
 <meta name="twitter:card" content="summary_large_image">
@@ -333,7 +333,7 @@
 </ol>
 <blockquote>
 <p>一些前文未涉及的问题：</p>
-<p>本站的域名注册商不在国内，托管与加速亦在国外，为了节省服务器费用直接将网页文件托管在了Github，金钱开支仅仅是每年不到10刀的域名费用（更节省的方式是直接使用 <code>username.github.io</code> ），这一流程下没有备案的要求，也少了许多限制，访问速度也还比较满意，由于使用了博客框架和主题，建站的技术门槛大大降低，但愿意「折腾」的话仍有不少可为之处，唯一的缺点是Github屏蔽了百度的爬虫不利于国内SEO。总体上，姑且认为是还不错的方案。</p>
+<p>本站的域名注册商不在国内，托管与加速亦在国外，为了节省服务器费用直接将网页文件托管在了Github，金钱开支仅仅是每年不到10刀的域名费用（更节省的方式是直接使用 <code>username.github.io</code> ），这一流程下没有备案的要求，也少了许多限制，访问速度也还比较满意，由于使用了博客框架和主题，建站的技术门槛大大降低，但愿意「折腾」的话仍有不少可为之处，唯一的缺点是Github屏蔽了百度的爬虫不利于国内SEO。总体上是还不错的方案。</p>
 <p>此外，这一方式下发文也十分方便，使用更轻量的Markdown语法或其他支持的方式写作即可，生成HTML文件的工作可以交给Hexo来完成。考虑到来看我页面的访客许多人并非理工科出身，我还是得说一句Markdown真的相当简单方便，初学可参照此 <a target="_blank" rel="noopener" href="https://markdown.com.cn/editor/">教程</a> ，至于所用编辑器，最初接触时我用 <a target="_blank" rel="noopener" href="https://typora.io/">Typora</a> ，现在它收费了，于是改用了开源的替代品 <a target="_blank" rel="noopener" href="https://github.com/marktext/marktext">MarkText</a> ，使用上还算流畅。</p>
 <p>其他轻松建站的方式：</p>
 <ul>
@@ -502,7 +502,7 @@
       Fluid.utils.createCssLink('https://cdn.staticfile.org/waline/2.15.5/waline.min.css')
       Fluid.utils.createScript('https://cdn.staticfile.org/waline/2.15.5/waline.min.js', function() {
         var options = Object.assign(
-          {"serverURL":"comment.heyirisy.com","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":[],"lang":"zh-CN","emoji":["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10},
+          {"serverURL":"comment.heyirisy.com","path":"window.location.pathname","meta":["nick","mail","link"],"requiredMeta":[],"lang":"zh-CN","emoji":["https://unpkg.com/@waline/emojis@1.2.0/qq","https://unpkg.com/@waline/emojis@1.2.0/bilibili"],"dark":"html[data-user-color-scheme=\"dark\"]","wordLimit":0,"pageSize":10,"placeholder":"欢迎评论","login":"disable","avatar":"hide","highlight":true,"copyright":false},
           {
             el: '#waline',
             path: window.location.pathname
